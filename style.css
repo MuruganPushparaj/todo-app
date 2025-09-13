@@ -9,3 +9,7 @@ h1 {
 li {
   margin: 5px 0;
 }
+body.dark {
+  background-color: #121212;
+  color: white;
+}
