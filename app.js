@@ -9,3 +9,6 @@ function addTask() {
   document.getElementById("taskList").appendChild(li);
   input.value = "";
 }
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
